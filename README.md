@@ -28,7 +28,18 @@ tnp-launcherのゲームを管理するためのリポジトリです。
    - ファイル名順にソートされます
 7. **ゲームファイルを zip 形式でアップロードする**
    - 必ず zip ファイル形式でアップロードしてください
-   - zip ファイルに `manifest.json` を含め、以下の内容を参考に作成します:
+   - zip ファイルの階層はこのようにしてください
+```
+IsuGolf-1.0.0.zip
+├── manifest.json
+|  (以下ゲームファイル)
+├── IsuGolf_Data/
+├── IsuGolf.exe
+├── MonoBleedingEdge/
+├── UnityCrashHandler64.exe
+└── UnityPlayer.dll
+```
+   - zip ファイルに `manifest.json` を含め、以下の内容を参考に作成してください:
 
 | キー        | 値                  |
 |------------|---------------------|
@@ -36,7 +47,7 @@ tnp-launcherのゲームを管理するためのリポジトリです。
 
 ```json
 {
-  "execPath": "Corelynx.exe"
+  "execPath": "IsuGolf.exe"
 }
 ```
 
@@ -54,7 +65,18 @@ tnp-launcherのゲームを管理するためのリポジトリです。
 2. **対象ゲームのリリース右上にある `Edit` を押す**
 3. **`Describe this release` に変更履歴を追記する**
 4. **更新したゲームファイルを zip 形式でアップロードする**
-   - zip ファイルに `manifest.json` を含め、以下の内容を参考に作成します:
+  - zip ファイルの階層はこのようにしてください
+```
+IsuGolf-1.0.0.zip
+├── manifest.json
+|  (以下ゲームファイル)
+├── IsuGolf_Data/
+├── IsuGolf.exe
+├── MonoBleedingEdge/
+├── UnityCrashHandler64.exe
+└── UnityPlayer.dll
+```
+   - zip ファイルに `manifest.json` を含め、以下の内容を参考に作成してください:
 
 | Key        | Value               |
 |------------|---------------------|
