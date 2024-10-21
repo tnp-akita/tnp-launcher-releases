@@ -25,11 +25,23 @@ tnp-launcherのゲームを管理するためのリポジトリです。
   - ファイル名順にソートを行います
 7. `Attach binaries by dropping them here or selecting them`に作成したゲームをアップロードします
   - 必ずzipファイルでアップロードしてください
+  - zipファイルの中に`manifest.json`を作成し、以下を参考に内容を作成してください
+
+| Key | Value |
+| ---- | ---- |
+| `execPath` | 実行ファイルのパス |
+
+```json
+{
+  "execPath": "Corelynx.exe"
+}
+```
+
   - ファイル名は`ゲーム名-バージョン.zip`のように記述してください
     - 最後の`-`から`.zip`までをバージョンとして認識します
     - そのため、バージョンをつける際はバージョン内にハイフンを入れないようにしてください
       - つまり`v-1.0.0`とかはダメです
-    - (例) `Corelynx-1.0.0.zip` `TypeBeat-1.2.1.zip`
+    - (例) `Corelynx-1.0.0.zip` `TypeBeat-1.2.1.zip` 
 8. `Publish release`を押します
 
 ## How to update a game?
