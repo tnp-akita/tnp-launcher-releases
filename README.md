@@ -84,11 +84,11 @@ IsuGolf-1.0.0.zip
 
 | キー        | 値                  |
 |------------|---------------------|
-| `execPath` | 実行ファイルのパス     |
+| `execFilePath` | 実行ファイルのパス     |
 
 ```json
 {
-  "execPath": "IsuGolf.exe"
+  "execFilePath": "IsuGolf.exe"
 }
 ```
 
@@ -121,11 +121,11 @@ IsuGolf-1.0.0.zip
 
 | Key        | Value               |
 |------------|---------------------|
-| `execPath` | 実行ファイルのパス |
+| `execFilePath` | 実行ファイルのパス |
 
 ```json
 {
-  "execPath": "Corelynx.exe"
+  "execFilePath": "Corelynx.exe"
 }
 ```
 
