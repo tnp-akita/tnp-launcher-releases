@@ -125,7 +125,7 @@ IsuGolf-1.0.0.zip
 
 ```json
 {
-  "execFilePath": "Corelynx.exe"
+  "execFilePath": "IsuGolf.exe"
 }
 ```
 
